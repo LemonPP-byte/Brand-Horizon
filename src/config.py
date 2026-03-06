@@ -16,9 +16,11 @@ BRANDS_FILE = os.path.join(DATA_DIR, "brands.json")
 HISTORY_FILE = os.path.join(DATA_DIR, "history.json")
 
 # AI Configuration
-AI_PROVIDER = "openai"  # or "anthropic"
+AI_PROVIDER = "deepseek"  # "openai", "anthropic", or "deepseek"
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
+DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY", "sk-0438686478f34f54aca3e27cee5c4a0a")
+DEEPSEEK_BASE_URL = "https://api.deepseek.com"
 
 # Selection settings
 DAILY_BRAND_COUNT = 5

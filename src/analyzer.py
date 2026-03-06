@@ -5,7 +5,7 @@ AI Analyzer - Analyzes brand websites using AI
 import os
 from typing import Dict
 from openai import OpenAI
-from config import AI_PROVIDER, OPENAI_API_KEY, ANTHROPIC_API_KEY
+from config import AI_PROVIDER, OPENAI_API_KEY, ANTHROPIC_API_KEY, DEEPSEEK_API_KEY, DEEPSEEK_BASE_URL
 
 
 class BrandAnalyzer:
@@ -17,12 +17,18 @@ class BrandAnalyzer:
             import anthropic
             self.client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
             self.model = "claude-3-5-sonnet-20241022"
+        elif AI_PROVIDER == "deepseek":
+            self.client = OpenAI(
+                api_key=DEEPSEEK_API_KEY,
+                base_url=DEEPSEEK_BASE_URL
+            )
+            self.model = "deepseek-chat"
 
     def analyze_brand(self, brand: Dict) -> Dict:
         """Analyze a brand and generate content"""
         prompt = self._create_prompt(brand)
 
-        if AI_PROVIDER == "openai":
+        if AI_PROVIDER in ["openai", "deepseek"]:
             response = self.client.chat.completions.create(
                 model=self.model,
                 messages=[
