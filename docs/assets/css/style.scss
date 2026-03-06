@@ -1,0 +1,281 @@
+---
+---
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: #ffffff;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Navigation */
+.main-nav {
+    background: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.main-nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: #666;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #1a1a1a;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #666;
+}
+
+/* Today's Section */
+.today-section {
+    padding: 4rem 0;
+    background: #ffffff;
+}
+
+.today-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.date {
+    text-align: center;
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 3rem;
+}
+
+.brands-preview {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.brands-preview h2 {
+    font-size: 1.8rem;
+    margin: 2rem 0 1rem 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.brands-preview h3 {
+    font-size: 1.3rem;
+    margin: 1.5rem 0 0.5rem 0;
+    color: #2a2a2a;
+}
+
+.brands-preview p {
+    margin: 1rem 0;
+    line-height: 1.8;
+}
+
+.brands-preview ul {
+    margin: 1rem 0;
+    padding-left: 2rem;
+}
+
+.brands-preview blockquote {
+    background: #f5f5f5;
+    border-left: 4px solid #2a2a2a;
+    padding: 1rem 1.5rem;
+    margin: 2rem 0;
+    font-style: italic;
+    color: #666;
+}
+
+.brands-preview code {
+    background: #f5f5f5;
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    color: #2a2a2a;
+}
+
+.no-content {
+    text-align: center;
+    color: #999;
+    font-style: italic;
+    padding: 3rem 0;
+}
+
+/* Archive Section */
+.archive-section {
+    padding: 4rem 0;
+    background: #fafafa;
+}
+
+.archive-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.archive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.archive-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s;
+}
+
+.archive-card:hover {
+    border-color: #2a2a2a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.archive-date {
+    font-weight: 500;
+    color: #2a2a2a;
+}
+
+.archive-arrow {
+    color: #666;
+    font-size: 1.2rem;
+}
+
+/* Post Content */
+.post-content {
+    padding: 4rem 0;
+    background: #ffffff;
+}
+
+.post-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.post-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.post-date {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+.post-body {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.post-footer {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+.back-link {
+    color: #2a2a2a;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.back-link:hover {
+    color: #666;
+}
+
+/* Footer */
+.footer {
+    background: #2a2a2a;
+    color: #999;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0.5rem 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .tagline {
+        font-size: 1rem;
+    }
+
+    .today-section h2,
+    .archive-section h2 {
+        font-size: 2rem;
+    }
+
+    .archive-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-links {
+        gap: 1rem;
+    }
+}

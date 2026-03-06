@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title | default: "Brand Sites" }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav">
+        <div class="container">
+            <div class="logo">Brand Sites</div>
+            <div class="nav-links">
+                <a href="{{ '/' | relative_url }}">Home</a>
+                <a href="#today">Today's Picks</a>
+                <a href="#archive">Archive</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Daily DTC Brand Inspiration</h1>
+            <p class="tagline">5 exceptional brand websites, curated daily by AI</p>
+        </div>
+    </section>
+
+    <!-- Today's Brands Section -->
+    <section id="today" class="today-section">
+        <div class="container">
+            <h2>Today's Featured Brands</h2>
+            <p class="date">{{ site.time | date: "%B %d, %Y" }}</p>
+
+            {% assign today = site.time | date: "%Y-%m-%d" %}
+            {% assign today_post = site.posts | where_exp: "post", "post.date == today" | first %}
+
+            {% if today_post %}
+                <div class="brands-preview">
+                    {{ today_post.content }}
+                </div>
+            {% else %}
+                <p class="no-content">No brands selected yet for today. Check back soon!</p>
+            {% endif %}
+        </div>
+    </section>
+
+    <!-- Archive Section -->
+    <section id="archive" class="archive-section">
+        <div class="container">
+            <h2>Archive</h2>
+            <div class="archive-grid">
+                {% for post in site.posts limit:30 %}
+                <a href="{{ post.url | relative_url }}" class="archive-card">
+                    <span class="archive-date">{{ post.date | date: "%b %d, %Y" }}</span>
+                    <span class="archive-arrow">→</span>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Brand Sites. Powered by AI.</p>
+            <p>Discover exceptional DTC brands daily</p>
+        </div>
+    </footer>
+</body>
+</html>
