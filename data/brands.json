@@ -8,7 +8,12 @@
       "subcategory": "Footwear",
       "region": "US",
       "founded": 2016,
-      "tags": ["DTC", "Sustainable", "Minimalist", "Comfort"],
+      "tags": [
+        "DTC",
+        "Sustainable",
+        "Minimalist",
+        "Comfort"
+      ],
       "description": "Sustainable footwear brand using natural materials",
       "last_recommended": null,
       "recommendation_count": 0,
@@ -22,7 +27,12 @@
       "subcategory": "Skincare & Makeup",
       "region": "US",
       "founded": 2014,
-      "tags": ["DTC", "Minimalist", "Social-First", "Community"],
+      "tags": [
+        "DTC",
+        "Minimalist",
+        "Social-First",
+        "Community"
+      ],
       "description": "Beauty brand built on community and social media",
       "last_recommended": null,
       "recommendation_count": 0,
@@ -36,10 +46,15 @@
       "subcategory": "Eyewear",
       "region": "US",
       "founded": 2010,
-      "tags": ["DTC", "Affordable", "Try-at-Home", "Social-Impact"],
+      "tags": [
+        "DTC",
+        "Affordable",
+        "Try-at-Home",
+        "Social-Impact"
+      ],
       "description": "Affordable eyewear with home try-on program",
-      "last_recommended": null,
-      "recommendation_count": 0,
+      "last_recommended": "2026-03-06",
+      "recommendation_count": 1,
       "priority": "high"
     },
     {
@@ -50,10 +65,15 @@
       "subcategory": "Sleep",
       "region": "US",
       "founded": 2014,
-      "tags": ["DTC", "Sleep-Tech", "Minimalist", "Trial-Period"],
+      "tags": [
+        "DTC",
+        "Sleep-Tech",
+        "Minimalist",
+        "Trial-Period"
+      ],
       "description": "Mattress and sleep products with risk-free trial",
-      "last_recommended": null,
-      "recommendation_count": 0,
+      "last_recommended": "2026-03-06",
+      "recommendation_count": 1,
       "priority": "high"
     },
     {
@@ -64,10 +84,15 @@
       "subcategory": "Luggage",
       "region": "US",
       "founded": 2015,
-      "tags": ["DTC", "Design-Forward", "Tech-Enabled", "Lifestyle"],
+      "tags": [
+        "DTC",
+        "Design-Forward",
+        "Tech-Enabled",
+        "Lifestyle"
+      ],
       "description": "Modern luggage with built-in battery and thoughtful design",
-      "last_recommended": null,
-      "recommendation_count": 0,
+      "last_recommended": "2026-03-06",
+      "recommendation_count": 1,
       "priority": "high"
     },
     {
@@ -78,7 +103,12 @@
       "subcategory": "Apparel",
       "region": "US",
       "founded": 2010,
-      "tags": ["DTC", "Transparent-Pricing", "Sustainable", "Minimalist"],
+      "tags": [
+        "DTC",
+        "Transparent-Pricing",
+        "Sustainable",
+        "Minimalist"
+      ],
       "description": "Transparent pricing and ethical fashion",
       "last_recommended": null,
       "recommendation_count": 0,
@@ -92,7 +122,12 @@
       "subcategory": "Activewear",
       "region": "US",
       "founded": 2014,
-      "tags": ["DTC", "Community", "Lifestyle", "Inclusive"],
+      "tags": [
+        "DTC",
+        "Community",
+        "Lifestyle",
+        "Inclusive"
+      ],
       "description": "Activewear for doing things, not just working out",
       "last_recommended": null,
       "recommendation_count": 0,
@@ -106,10 +141,15 @@
       "subcategory": "Bedding",
       "region": "US",
       "founded": 2014,
-      "tags": ["DTC", "Affordable-Luxury", "Quality", "Comfort"],
+      "tags": [
+        "DTC",
+        "Affordable-Luxury",
+        "Quality",
+        "Comfort"
+      ],
       "description": "Luxury bedding at accessible prices",
-      "last_recommended": null,
-      "recommendation_count": 0,
+      "last_recommended": "2026-03-06",
+      "recommendation_count": 1,
       "priority": "medium"
     },
     {
@@ -120,10 +160,15 @@
       "subcategory": "Supplements",
       "region": "US",
       "founded": 2016,
-      "tags": ["DTC", "Transparent", "Science-Based", "Minimalist"],
+      "tags": [
+        "DTC",
+        "Transparent",
+        "Science-Based",
+        "Minimalist"
+      ],
       "description": "Transparent vitamin and supplement brand",
-      "last_recommended": null,
-      "recommendation_count": 0,
+      "last_recommended": "2026-03-06",
+      "recommendation_count": 1,
       "priority": "medium"
     },
     {
@@ -134,7 +179,12 @@
       "subcategory": "Socks & Underwear",
       "region": "US",
       "founded": 2013,
-      "tags": ["DTC", "Social-Impact", "Comfort", "Quality"],
+      "tags": [
+        "DTC",
+        "Social-Impact",
+        "Comfort",
+        "Quality"
+      ],
       "description": "Comfortable socks with one-for-one donation model",
       "last_recommended": null,
       "recommendation_count": 0,

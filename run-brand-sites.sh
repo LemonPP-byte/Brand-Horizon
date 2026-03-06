@@ -6,12 +6,11 @@
 # 设置工作目录
 cd /Users/admin/BrandSites
 
-# 设置 PATH
-export PATH="$HOME/.local/bin:$PATH"
+# 激活虚拟环境
+source venv/bin/activate
 
 # 设置 API Keys (从环境变量读取)
-export OPENAI_API_KEY="${OPENAI_API_KEY}"
-export ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY}"
+export DEEPSEEK_API_KEY="${DEEPSEEK_API_KEY:-sk-0438686478f34f54aca3e27cee5c4a0a}"
 
 # 运行主程序
 echo "$(date): Starting Brand Sites selection..."
