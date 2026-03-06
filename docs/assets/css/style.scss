@@ -135,6 +135,20 @@ a {
     font-size: 0.875rem;
 }
 
+/* Brand Item Wrapper */
+.brand-item {
+    border-bottom: 1px solid #000000;
+    transition: background 0.2s;
+}
+
+.brand-item:last-child {
+    border-bottom: none;
+}
+
+.brand-item:hover {
+    background: #fafafa;
+}
+
 /* Brand Detail Sections - Collapsible Style */
 .brands-preview h2 {
     font-size: 1.125rem;

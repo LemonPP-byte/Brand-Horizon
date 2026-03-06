@@ -42,17 +42,25 @@
             if (!brandsContainer) return;
 
             // Find all h2 elements (brand titles)
-            const brandTitles = brandsContainer.querySelectorAll('h2');
+            const allH2 = brandsContainer.querySelectorAll('h2');
 
-            brandTitles.forEach(function(title) {
-                // Wrap content after h2 until next h2
+            allH2.forEach(function(title) {
+                // Create wrapper for the brand item
+                const brandItem = document.createElement('div');
+                brandItem.className = 'brand-item';
+
+                // Wrap the h2
+                title.parentNode.insertBefore(brandItem, title);
+                brandItem.appendChild(title);
+
+                // Wrap content after h2 until next h2 or hr
                 const detailContent = document.createElement('div');
                 detailContent.className = 'brand-detail-content';
 
-                let nextElement = title.nextElementSibling;
+                let nextElement = brandItem.nextElementSibling;
                 const elementsToWrap = [];
 
-                while (nextElement && nextElement.tagName !== 'H2') {
+                while (nextElement && nextElement.tagName !== 'H2' && nextElement.tagName !== 'HR') {
                     elementsToWrap.push(nextElement);
                     nextElement = nextElement.nextElementSibling;
                 }
@@ -61,12 +69,15 @@
                     detailContent.appendChild(el);
                 });
 
-                title.parentNode.insertBefore(detailContent, title.nextSibling);
+                brandItem.appendChild(detailContent);
 
-                // Add click handler
+                // Add click handler to title
+                title.style.cursor = 'pointer';
                 title.addEventListener('click', function(e) {
-                    if (e.target.tagName === 'A') return; // Don't toggle if clicking link
+                    // Allow clicking the link inside h2
+                    if (e.target.tagName === 'A') return;
 
+                    e.preventDefault();
                     this.classList.toggle('expanded');
                     detailContent.classList.toggle('expanded');
                 });
