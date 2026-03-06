@@ -15,8 +15,8 @@
         "Comfort"
       ],
       "description": "Sustainable footwear brand using natural materials",
-      "last_recommended": null,
-      "recommendation_count": 0,
+      "last_recommended": "2026-03-06",
+      "recommendation_count": 1,
       "priority": "high"
     },
     {
@@ -34,8 +34,8 @@
         "Community"
       ],
       "description": "Beauty brand built on community and social media",
-      "last_recommended": null,
-      "recommendation_count": 0,
+      "last_recommended": "2026-03-06",
+      "recommendation_count": 1,
       "priority": "high"
     },
     {
@@ -73,7 +73,7 @@
       ],
       "description": "Mattress and sleep products with risk-free trial",
       "last_recommended": "2026-03-06",
-      "recommendation_count": 1,
+      "recommendation_count": 2,
       "priority": "high"
     },
     {
@@ -92,7 +92,7 @@
       ],
       "description": "Modern luggage with built-in battery and thoughtful design",
       "last_recommended": "2026-03-06",
-      "recommendation_count": 1,
+      "recommendation_count": 2,
       "priority": "high"
     },
     {
@@ -129,8 +129,8 @@
         "Inclusive"
       ],
       "description": "Activewear for doing things, not just working out",
-      "last_recommended": null,
-      "recommendation_count": 0,
+      "last_recommended": "2026-03-06",
+      "recommendation_count": 1,
       "priority": "medium"
     },
     {
