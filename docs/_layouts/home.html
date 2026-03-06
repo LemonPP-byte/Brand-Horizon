@@ -30,18 +30,17 @@
     <!-- Today's Brands Section -->
     <section id="today" class="today-section">
         <div class="container">
-            <h2>Today's Featured Brands</h2>
-            <p class="date">{{ site.time | date: "%B %d, %Y" }}</p>
+            <h2>Latest Featured Brands</h2>
 
-            {% assign today = site.time | date: "%Y-%m-%d" %}
-            {% assign today_post = site.posts | where_exp: "post", "post.date == today" | first %}
+            {% assign latest_post = site.posts | first %}
 
-            {% if today_post %}
+            {% if latest_post %}
+                <p class="date">{{ latest_post.date | date: "%B %d, %Y" }}</p>
                 <div class="brands-preview">
-                    {{ today_post.content }}
+                    {{ latest_post.content }}
                 </div>
             {% else %}
-                <p class="no-content">No brands selected yet for today. Check back soon!</p>
+                <p class="no-content">No brands selected yet. Check back soon!</p>
             {% endif %}
         </div>
     </section>
