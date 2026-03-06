@@ -47,13 +47,22 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            console.log('Script loaded');
             const brandsContainer = document.getElementById('brands-container');
-            if (!brandsContainer) return;
+            if (!brandsContainer) {
+                console.log('brands-container not found');
+                return;
+            }
+
+            console.log('brands-container found');
 
             // Find all h2 elements (brand titles) - skip the first hr
             const allH2 = brandsContainer.querySelectorAll('h2');
+            console.log('Found h2 elements:', allH2.length);
 
-            allH2.forEach(function(title) {
+            allH2.forEach(function(title, index) {
+                console.log('Processing h2 #' + index);
+
                 // Create wrapper for the brand item
                 const brandItem = document.createElement('div');
                 brandItem.className = 'brand-item';
@@ -74,6 +83,8 @@
                     nextElement = nextElement.nextElementSibling;
                 }
 
+                console.log('Elements to wrap:', elementsToWrap.length);
+
                 elementsToWrap.forEach(function(el) {
                     detailContent.appendChild(el);
                 });
@@ -87,6 +98,7 @@
                     if (e.target.tagName === 'A') return;
 
                     e.preventDefault();
+                    console.log('Toggling brand #' + index);
                     this.classList.toggle('expanded');
                     detailContent.classList.toggle('expanded');
                 });
