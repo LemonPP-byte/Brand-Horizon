@@ -33,17 +33,22 @@ SCORE_WEIGHTS = {
     "innovation": 0.3
 }
 
-# Categories
+# Import extended categories
+from categories_extended import EXTENDED_CATEGORIES, SEARCH_KEYWORDS
+
+# Legacy categories (for backward compatibility)
 CATEGORIES = [
-    "Fashion",
-    "Beauty",
-    "Home",
-    "Health",
-    "Travel",
-    "Food",
-    "Tech",
-    "Lifestyle"
+    "Fashion & Apparel",
+    "Beauty & Personal Care",
+    "Home & Living",
+    "Food & Beverage",
+    "Health & Wellness",
+    "Baby & Kids",
+    "Pet Care",
+    "Electronics & Tech",
+    "Outdoor & Sports",
+    "Personal Electronics"
 ]
 
 # Regions
-REGIONS = ["US", "UK", "EU", "Global"]
+REGIONS = ["US", "UK", "EU", "Global", "Asia"]

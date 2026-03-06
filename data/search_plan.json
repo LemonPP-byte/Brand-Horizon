@@ -1,0 +1,635 @@
+{
+  "total_keywords": 70,
+  "categories": {
+    "Fashion & Apparel": {
+      "count": 15,
+      "subcategories": {
+        "Sustainable Fashion": [
+          "sustainable fashion brand",
+          "minimalist clothing brand",
+          "outerwear brand"
+        ],
+        "Footwear": [
+          "direct-to-consumer shoes",
+          "sustainable footwear"
+        ],
+        "Activewear & Sportswear": [
+          "activewear brand"
+        ],
+        "Denim & Casual Wear": [
+          "denim brand"
+        ],
+        "Accessories & Jewelry": [
+          "luxury accessories",
+          "jewelry brand",
+          "pet accessories"
+        ],
+        "Eyewear": [
+          "eyewear brand"
+        ],
+        "Watches": [
+          "watch brand",
+          "smartwatch brand"
+        ],
+        "Bags & Luggage": [
+          "luggage brand"
+        ],
+        "Underwear & Intimates": [
+          "underwear brand"
+        ]
+      },
+      "keywords": [
+        "sustainable fashion brand",
+        "direct-to-consumer shoes",
+        "minimalist clothing brand",
+        "activewear brand",
+        "denim brand",
+        "luxury accessories",
+        "eyewear brand",
+        "watch brand",
+        "jewelry brand",
+        "luggage brand",
+        "underwear brand",
+        "outerwear brand",
+        "sustainable footwear",
+        "pet accessories",
+        "smartwatch brand"
+      ]
+    },
+    "Beauty & Personal Care": {
+      "count": 11,
+      "subcategories": {
+        "Clean Beauty": [
+          "clean beauty brand",
+          "k-beauty brand",
+          "vegan beauty",
+          "organic beauty"
+        ],
+        "Skincare": [
+          "skincare brand",
+          "anti-aging skincare"
+        ],
+        "Makeup & Cosmetics": [
+          "makeup brand",
+          "natural cosmetics"
+        ],
+        "Haircare": [
+          "haircare brand"
+        ],
+        "Men's Grooming": [
+          "men's grooming"
+        ],
+        "Fragrance": [
+          "fragrance brand"
+        ]
+      },
+      "keywords": [
+        "clean beauty brand",
+        "skincare brand",
+        "makeup brand",
+        "haircare brand",
+        "men's grooming",
+        "fragrance brand",
+        "k-beauty brand",
+        "natural cosmetics",
+        "vegan beauty",
+        "anti-aging skincare",
+        "organic beauty"
+      ]
+    },
+    "Home & Living": {
+      "count": 11,
+      "subcategories": {
+        "Furniture": [
+          "modern furniture brand",
+          "sustainable furniture",
+          "children's furniture"
+        ],
+        "Mattresses & Sleep": [
+          "mattress brand"
+        ],
+        "Bedding & Linens": [
+          "bedding brand",
+          "luxury linens"
+        ],
+        "Home Decor": [
+          "home decor brand"
+        ],
+        "Kitchenware & Cookware": [
+          "kitchenware brand",
+          "cookware brand"
+        ],
+        "Smart Home": [
+          "smart home brand"
+        ],
+        "Lighting": [
+          "lighting brand"
+        ]
+      },
+      "keywords": [
+        "modern furniture brand",
+        "mattress brand",
+        "bedding brand",
+        "home decor brand",
+        "kitchenware brand",
+        "smart home brand",
+        "lighting brand",
+        "sustainable furniture",
+        "luxury linens",
+        "cookware brand",
+        "children's furniture"
+      ]
+    },
+    "Food & Beverage": {
+      "count": 12,
+      "subcategories": {
+        "Snacks & Chips": [
+          "healthy snacks brand"
+        ],
+        "Coffee & Tea": [
+          "coffee brand",
+          "tea brand"
+        ],
+        "Meal Kits & Prepared Foods": [
+          "meal kit delivery"
+        ],
+        "Protein & Nutrition": [
+          "protein bar brand",
+          "nutrition brand"
+        ],
+        "Specialty Foods": [
+          "craft beverage",
+          "specialty food brand",
+          "organic food brand",
+          "baby food brand",
+          "pet food brand"
+        ],
+        "Chocolate & Candy": [
+          "chocolate brand"
+        ]
+      },
+      "keywords": [
+        "healthy snacks brand",
+        "coffee brand",
+        "meal kit delivery",
+        "protein bar brand",
+        "craft beverage",
+        "specialty food brand",
+        "organic food brand",
+        "chocolate brand",
+        "tea brand",
+        "nutrition brand",
+        "baby food brand",
+        "pet food brand"
+      ]
+    },
+    "Health & Wellness": {
+      "count": 11,
+      "subcategories": {
+        "Vitamins & Supplements": [
+          "vitamin brand",
+          "supplement brand",
+          "wellness brand",
+          "pet wellness"
+        ],
+        "Fitness Equipment": [
+          "fitness equipment"
+        ],
+        "Mental Health & Meditation": [
+          "meditation app",
+          "mental health app"
+        ],
+        "Sexual Wellness": [
+          "sexual wellness"
+        ],
+        "Women's Health": [
+          "women's health"
+        ],
+        "CBD & Hemp Products": [
+          "cbd brand"
+        ],
+        "Sleep & Recovery": [
+          "sleep aid brand"
+        ]
+      },
+      "keywords": [
+        "vitamin brand",
+        "supplement brand",
+        "fitness equipment",
+        "wellness brand",
+        "meditation app",
+        "sexual wellness",
+        "women's health",
+        "cbd brand",
+        "sleep aid brand",
+        "mental health app",
+        "pet wellness"
+      ]
+    },
+    "Baby & Kids": {
+      "count": 4,
+      "subcategories": {
+        "Baby Gear & Strollers": [
+          "baby products brand",
+          "baby gear brand"
+        ],
+        "Toys & Games": [
+          "kids toys brand",
+          "dog toys brand"
+        ]
+      },
+      "keywords": [
+        "baby products brand",
+        "kids toys brand",
+        "baby gear brand",
+        "dog toys brand"
+      ]
+    },
+    "Electronics & Tech": {
+      "count": 3,
+      "subcategories": {
+        "Audio & Headphones": [
+          "headphones brand",
+          "audio brand"
+        ],
+        "Wearables & Smartwatches": [
+          "wearable tech"
+        ]
+      },
+      "keywords": [
+        "headphones brand",
+        "audio brand",
+        "wearable tech"
+      ]
+    },
+    "Outdoor & Sports": {
+      "count": 3,
+      "subcategories": {
+        "Camping & Hiking": [
+          "outdoor gear brand",
+          "camping equipment"
+        ],
+        "Fitness & Yoga": [
+          "yoga brand"
+        ]
+      },
+      "keywords": [
+        "outdoor gear brand",
+        "yoga brand",
+        "camping equipment"
+      ]
+    }
+  },
+  "keywords": [
+    {
+      "keyword": "sustainable fashion brand",
+      "category": "Fashion & Apparel",
+      "subcategory": "Sustainable Fashion"
+    },
+    {
+      "keyword": "direct-to-consumer shoes",
+      "category": "Fashion & Apparel",
+      "subcategory": "Footwear"
+    },
+    {
+      "keyword": "minimalist clothing brand",
+      "category": "Fashion & Apparel",
+      "subcategory": "Sustainable Fashion"
+    },
+    {
+      "keyword": "activewear brand",
+      "category": "Fashion & Apparel",
+      "subcategory": "Activewear & Sportswear"
+    },
+    {
+      "keyword": "denim brand",
+      "category": "Fashion & Apparel",
+      "subcategory": "Denim & Casual Wear"
+    },
+    {
+      "keyword": "luxury accessories",
+      "category": "Fashion & Apparel",
+      "subcategory": "Accessories & Jewelry"
+    },
+    {
+      "keyword": "eyewear brand",
+      "category": "Fashion & Apparel",
+      "subcategory": "Eyewear"
+    },
+    {
+      "keyword": "watch brand",
+      "category": "Fashion & Apparel",
+      "subcategory": "Watches"
+    },
+    {
+      "keyword": "jewelry brand",
+      "category": "Fashion & Apparel",
+      "subcategory": "Accessories & Jewelry"
+    },
+    {
+      "keyword": "luggage brand",
+      "category": "Fashion & Apparel",
+      "subcategory": "Bags & Luggage"
+    },
+    {
+      "keyword": "underwear brand",
+      "category": "Fashion & Apparel",
+      "subcategory": "Underwear & Intimates"
+    },
+    {
+      "keyword": "outerwear brand",
+      "category": "Fashion & Apparel",
+      "subcategory": "Sustainable Fashion"
+    },
+    {
+      "keyword": "sustainable footwear",
+      "category": "Fashion & Apparel",
+      "subcategory": "Footwear"
+    },
+    {
+      "keyword": "clean beauty brand",
+      "category": "Beauty & Personal Care",
+      "subcategory": "Clean Beauty"
+    },
+    {
+      "keyword": "skincare brand",
+      "category": "Beauty & Personal Care",
+      "subcategory": "Skincare"
+    },
+    {
+      "keyword": "makeup brand",
+      "category": "Beauty & Personal Care",
+      "subcategory": "Makeup & Cosmetics"
+    },
+    {
+      "keyword": "haircare brand",
+      "category": "Beauty & Personal Care",
+      "subcategory": "Haircare"
+    },
+    {
+      "keyword": "men's grooming",
+      "category": "Beauty & Personal Care",
+      "subcategory": "Men's Grooming"
+    },
+    {
+      "keyword": "fragrance brand",
+      "category": "Beauty & Personal Care",
+      "subcategory": "Fragrance"
+    },
+    {
+      "keyword": "k-beauty brand",
+      "category": "Beauty & Personal Care",
+      "subcategory": "Clean Beauty"
+    },
+    {
+      "keyword": "natural cosmetics",
+      "category": "Beauty & Personal Care",
+      "subcategory": "Makeup & Cosmetics"
+    },
+    {
+      "keyword": "vegan beauty",
+      "category": "Beauty & Personal Care",
+      "subcategory": "Clean Beauty"
+    },
+    {
+      "keyword": "anti-aging skincare",
+      "category": "Beauty & Personal Care",
+      "subcategory": "Skincare"
+    },
+    {
+      "keyword": "organic beauty",
+      "category": "Beauty & Personal Care",
+      "subcategory": "Clean Beauty"
+    },
+    {
+      "keyword": "modern furniture brand",
+      "category": "Home & Living",
+      "subcategory": "Furniture"
+    },
+    {
+      "keyword": "mattress brand",
+      "category": "Home & Living",
+      "subcategory": "Mattresses & Sleep"
+    },
+    {
+      "keyword": "bedding brand",
+      "category": "Home & Living",
+      "subcategory": "Bedding & Linens"
+    },
+    {
+      "keyword": "home decor brand",
+      "category": "Home & Living",
+      "subcategory": "Home Decor"
+    },
+    {
+      "keyword": "kitchenware brand",
+      "category": "Home & Living",
+      "subcategory": "Kitchenware & Cookware"
+    },
+    {
+      "keyword": "smart home brand",
+      "category": "Home & Living",
+      "subcategory": "Smart Home"
+    },
+    {
+      "keyword": "lighting brand",
+      "category": "Home & Living",
+      "subcategory": "Lighting"
+    },
+    {
+      "keyword": "sustainable furniture",
+      "category": "Home & Living",
+      "subcategory": "Furniture"
+    },
+    {
+      "keyword": "luxury linens",
+      "category": "Home & Living",
+      "subcategory": "Bedding & Linens"
+    },
+    {
+      "keyword": "cookware brand",
+      "category": "Home & Living",
+      "subcategory": "Kitchenware & Cookware"
+    },
+    {
+      "keyword": "healthy snacks brand",
+      "category": "Food & Beverage",
+      "subcategory": "Snacks & Chips"
+    },
+    {
+      "keyword": "coffee brand",
+      "category": "Food & Beverage",
+      "subcategory": "Coffee & Tea"
+    },
+    {
+      "keyword": "meal kit delivery",
+      "category": "Food & Beverage",
+      "subcategory": "Meal Kits & Prepared Foods"
+    },
+    {
+      "keyword": "protein bar brand",
+      "category": "Food & Beverage",
+      "subcategory": "Protein & Nutrition"
+    },
+    {
+      "keyword": "craft beverage",
+      "category": "Food & Beverage",
+      "subcategory": "Specialty Foods"
+    },
+    {
+      "keyword": "specialty food brand",
+      "category": "Food & Beverage",
+      "subcategory": "Specialty Foods"
+    },
+    {
+      "keyword": "organic food brand",
+      "category": "Food & Beverage",
+      "subcategory": "Specialty Foods"
+    },
+    {
+      "keyword": "chocolate brand",
+      "category": "Food & Beverage",
+      "subcategory": "Chocolate & Candy"
+    },
+    {
+      "keyword": "tea brand",
+      "category": "Food & Beverage",
+      "subcategory": "Coffee & Tea"
+    },
+    {
+      "keyword": "nutrition brand",
+      "category": "Food & Beverage",
+      "subcategory": "Protein & Nutrition"
+    },
+    {
+      "keyword": "vitamin brand",
+      "category": "Health & Wellness",
+      "subcategory": "Vitamins & Supplements"
+    },
+    {
+      "keyword": "supplement brand",
+      "category": "Health & Wellness",
+      "subcategory": "Vitamins & Supplements"
+    },
+    {
+      "keyword": "fitness equipment",
+      "category": "Health & Wellness",
+      "subcategory": "Fitness Equipment"
+    },
+    {
+      "keyword": "wellness brand",
+      "category": "Health & Wellness",
+      "subcategory": "Vitamins & Supplements"
+    },
+    {
+      "keyword": "meditation app",
+      "category": "Health & Wellness",
+      "subcategory": "Mental Health & Meditation"
+    },
+    {
+      "keyword": "sexual wellness",
+      "category": "Health & Wellness",
+      "subcategory": "Sexual Wellness"
+    },
+    {
+      "keyword": "women's health",
+      "category": "Health & Wellness",
+      "subcategory": "Women's Health"
+    },
+    {
+      "keyword": "cbd brand",
+      "category": "Health & Wellness",
+      "subcategory": "CBD & Hemp Products"
+    },
+    {
+      "keyword": "sleep aid brand",
+      "category": "Health & Wellness",
+      "subcategory": "Sleep & Recovery"
+    },
+    {
+      "keyword": "mental health app",
+      "category": "Health & Wellness",
+      "subcategory": "Mental Health & Meditation"
+    },
+    {
+      "keyword": "baby products brand",
+      "category": "Baby & Kids",
+      "subcategory": "Baby Gear & Strollers"
+    },
+    {
+      "keyword": "kids toys brand",
+      "category": "Baby & Kids",
+      "subcategory": "Toys & Games"
+    },
+    {
+      "keyword": "baby gear brand",
+      "category": "Baby & Kids",
+      "subcategory": "Baby Gear & Strollers"
+    },
+    {
+      "keyword": "children's furniture",
+      "category": "Home & Living",
+      "subcategory": "Furniture"
+    },
+    {
+      "keyword": "baby food brand",
+      "category": "Food & Beverage",
+      "subcategory": "Specialty Foods"
+    },
+    {
+      "keyword": "pet food brand",
+      "category": "Food & Beverage",
+      "subcategory": "Specialty Foods"
+    },
+    {
+      "keyword": "dog toys brand",
+      "category": "Baby & Kids",
+      "subcategory": "Toys & Games"
+    },
+    {
+      "keyword": "pet wellness",
+      "category": "Health & Wellness",
+      "subcategory": "Vitamins & Supplements"
+    },
+    {
+      "keyword": "pet accessories",
+      "category": "Fashion & Apparel",
+      "subcategory": "Accessories & Jewelry"
+    },
+    {
+      "keyword": "headphones brand",
+      "category": "Electronics & Tech",
+      "subcategory": "Audio & Headphones"
+    },
+    {
+      "keyword": "smartwatch brand",
+      "category": "Fashion & Apparel",
+      "subcategory": "Watches"
+    },
+    {
+      "keyword": "audio brand",
+      "category": "Electronics & Tech",
+      "subcategory": "Audio & Headphones"
+    },
+    {
+      "keyword": "wearable tech",
+      "category": "Electronics & Tech",
+      "subcategory": "Wearables & Smartwatches"
+    },
+    {
+      "keyword": "outdoor gear brand",
+      "category": "Outdoor & Sports",
+      "subcategory": "Camping & Hiking"
+    },
+    {
+      "keyword": "yoga brand",
+      "category": "Outdoor & Sports",
+      "subcategory": "Fitness & Yoga"
+    },
+    {
+      "keyword": "camping equipment",
+      "category": "Outdoor & Sports",
+      "subcategory": "Camping & Hiking"
+    }
+  ]
+}
