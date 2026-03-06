@@ -1,7 +1,7 @@
 title: Brand Sites
 description: Daily DTC brand website inspiration, curated by AI
-baseurl: ""
-url: "https://yourusername.github.io"
+baseurl: "/Brand-Horizon"
+url: "https://lemonpp-byte.github.io"
 
 # Build settings
 markdown: kramdown
