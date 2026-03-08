@@ -15,8 +15,8 @@
         "Comfort"
       ],
       "description": "Sustainable footwear brand using natural materials",
-      "last_recommended": "2026-03-06",
-      "recommendation_count": 1,
+      "last_recommended": "2026-03-08",
+      "recommendation_count": 2,
       "priority": "high"
     },
     {
@@ -34,8 +34,8 @@
         "Community"
       ],
       "description": "Beauty brand built on community and social media",
-      "last_recommended": "2026-03-06",
-      "recommendation_count": 1,
+      "last_recommended": "2026-03-08",
+      "recommendation_count": 2,
       "priority": "high"
     },
     {
@@ -53,8 +53,8 @@
         "Social-Impact"
       ],
       "description": "Affordable eyewear with home try-on program",
-      "last_recommended": "2026-03-06",
-      "recommendation_count": 1,
+      "last_recommended": "2026-03-08",
+      "recommendation_count": 2,
       "priority": "high"
     },
     {
@@ -110,8 +110,8 @@
         "Minimalist"
       ],
       "description": "Transparent pricing and ethical fashion",
-      "last_recommended": null,
-      "recommendation_count": 0,
+      "last_recommended": "2026-03-08",
+      "recommendation_count": 1,
       "priority": "high"
     },
     {
@@ -186,8 +186,8 @@
         "Quality"
       ],
       "description": "Comfortable socks with one-for-one donation model",
-      "last_recommended": null,
-      "recommendation_count": 0,
+      "last_recommended": "2026-03-08",
+      "recommendation_count": 1,
       "priority": "medium"
     }
   ]
