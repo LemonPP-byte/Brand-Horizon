@@ -15,8 +15,8 @@
         "Comfort"
       ],
       "description": "Sustainable footwear brand using natural materials",
-      "last_recommended": "2026-03-09",
-      "recommendation_count": 3,
+      "last_recommended": "2026-03-10",
+      "recommendation_count": 4,
       "priority": "high"
     },
     {
@@ -34,8 +34,8 @@
         "Community"
       ],
       "description": "Beauty brand built on community and social media",
-      "last_recommended": "2026-03-08",
-      "recommendation_count": 2,
+      "last_recommended": "2026-03-10",
+      "recommendation_count": 3,
       "priority": "high"
     },
     {
@@ -110,8 +110,8 @@
         "Minimalist"
       ],
       "description": "Transparent pricing and ethical fashion",
-      "last_recommended": "2026-03-08",
-      "recommendation_count": 2,
+      "last_recommended": "2026-03-10",
+      "recommendation_count": 3,
       "priority": "high"
     },
     {
@@ -167,8 +167,8 @@
         "Minimalist"
       ],
       "description": "Transparent vitamin and supplement brand",
-      "last_recommended": "2026-03-08",
-      "recommendation_count": 2,
+      "last_recommended": "2026-03-10",
+      "recommendation_count": 3,
       "priority": "medium"
     },
     {
@@ -186,8 +186,8 @@
         "Quality"
       ],
       "description": "Comfortable socks with one-for-one donation model",
-      "last_recommended": "2026-03-08",
-      "recommendation_count": 1,
+      "last_recommended": "2026-03-10",
+      "recommendation_count": 2,
       "priority": "medium"
     }
   ]
